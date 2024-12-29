@@ -1,0 +1,43 @@
+.comp__blog-container_article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(23, 69, 168);
+  border-radius: 10px;
+}
+
+.comp__blog-container_article-image {
+  width: 100%;
+  height: 100%;
+}
+
+.comp__blog-container_article-image img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.comp__blog-container_article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 2.5rem;
+  height: 100%;
+}
+
+.comp__blog-container_article-content h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+  .comp__blog-container_article-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

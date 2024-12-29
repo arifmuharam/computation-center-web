@@ -1,0 +1,23 @@
+.comp__features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.comp__features-heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 5rem;
+}
+
+.comp__features-heading h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
